@@ -79,7 +79,7 @@ def plotPaths(initial_path, best_path, city_coords):
     # 繪製初始路徑
     plt.subplot(1, 2, 1)
     plt.plot(x_initial, y_initial, marker='o', markerfacecolor='blue', markersize=10, linestyle='-')
-    plt.title('Initial Random Path')
+    plt.title('Original Path')
     plt.xlabel('X Coordinate')
     plt.ylabel('Y Coordinate')
     for i, (xi, yi) in enumerate(city_coords):
@@ -89,7 +89,7 @@ def plotPaths(initial_path, best_path, city_coords):
     # 繪製最佳路徑
     plt.subplot(1, 2, 2)
     plt.plot(x_best, y_best, marker='o', markerfacecolor='red', markersize=10, linestyle='-')
-    plt.title('Optimal Path')
+    plt.title('Best Path')
     plt.xlabel('X Coordinate')
     plt.ylabel('Y Coordinate')
     for i, (xi, yi) in enumerate(city_coords):
