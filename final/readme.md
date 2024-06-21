@@ -4,5 +4,5 @@ Q-learning算法參考自[深度學習 最佳入門邁向AI專題實戰](https:/
 書本範例程式[github下載](https://github.com/mc6666/DL_Book?tab=readme-ov-file)  
 其中有用到chatgpt進行輔助  
 訓練500000次 共花費約10700秒  
-產生的狀態值函數表為policy_p1 policy_p2 (由於過大所以[由此下載])  
+產生的狀態值函數表為policy_p1 policy_p2 (由於過大所以[由此下載](https://drive.google.com/drive/folders/1hZzgxpEKEUIHg-_jR6meFYP0Fikf-J_-?usp=sharing))  
 <img src="policy.png"/>
